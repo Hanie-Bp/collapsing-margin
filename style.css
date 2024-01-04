@@ -1,0 +1,53 @@
+.box {
+    margin: 0 0 20px 0;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.one {
+    margin: 0 0 50px 0;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.two {
+    margin: 30px 0 0 0;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.negone {
+    margin: 0 0 -20px 0;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.negtwo {
+    margin: -10px 0 0 0;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.neg {
+    margin: 0 0 30px 0;
+    background-color: pink;
+    border: 2px solid black; 
+}
+
+.pos {
+    margin: -20px 0 0 0;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+.parent {
+    margin: 0 0 40px 0;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.child {
+    margin: 30px 0 0 0;
+    background-color: aqua;
+    border: 2px solid black;
+}
