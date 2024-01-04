@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>margin collapse</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <h2>example of collapsing margin when they have equal margin size</h2>
+
+        <div class="box">
+            <p>a paragraph inside a box</p>
+        </div>
+
+        <div class="box">
+            <p>another paragraph</p>
+        </div>
+
+        <br>
+        <br>
+
+        <h2>example of collapsing margin when one of them has a bigger size</h2>
+
+        <div class="one">
+            <p>this paragraph has a 50px margin bottom</p>
+        </div>
+
+        <div class="two">
+            <p>this paragraph has a 30px margin top</p>
+        </div>
+
+        <br>
+        <br>
+
+        <h2>example of collapsing margin when both of them have negative size</h2>
+
+        <div class="negone">
+            <p>this paragraph has a -20px margin bottom</p>
+        </div>
+
+        <div class="negtwo">
+            <p>this paragraph has a -10px margin top</p>
+        </div>
+
+        <br>
+        <br>
+
+        <h2>example of collapsing margin when one of them has a negative size</h2>
+
+        <div class="neg">
+            <p>this paragraph has a 20px margin bottom</p>
+        </div>
+
+        <div class="pos">
+            <p>this paragraph has a -10px margin top</p>
+        </div>
+
+        <br>
+        <br>
+
+        <h2>example of parent-child margin collapse</h2>
+
+        <div class="parent">
+            <p>parent with a 40px margin-bottom </p>
+            <div class="child">
+                <p>child with a 30px margin-top</p>
+            </div>
+        </div>
+
+    </body>
+</html>
